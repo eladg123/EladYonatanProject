@@ -1,0 +1,7 @@
+msg_id,app_protocol,src_port,dst_port,message,timestamp
+1,HTTP,client_browser,web_server,GET /index.html,0.01
+2,HTTP,web_server,client_browser,HTTP/1.1 200 OK,0.015
+3,HTTP,client_browser,web_server,GET /images/logo.png,0.02
+4,HTTP,web_server,client_browser,HTTP/1.1 200 OK (Image Data),0.025
+5,HTTP,client_browser,web_server,GET /admin,0.03
+6,HTTP,web_server,client_browser,HTTP/1.1 403 Forbidden,0.035
